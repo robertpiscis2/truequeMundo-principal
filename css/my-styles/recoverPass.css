@@ -1,0 +1,52 @@
+body{
+    background-color: #1142CD;
+}
+
+#principal{
+    width: 100vw;
+    height: 95vh;
+}
+
+#sectionRecover{
+    width: 100%;
+}
+
+#sectionRecover article{
+    width: 70%;
+    margin: 10px 0;
+}
+
+#frmEmailRecover{
+    height: 30px;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+}
+
+#formRecover{
+    width: -moz-available;
+}
+
+.m-input{
+    width: -moz-available;
+}
+
+.btn-bkg{
+    background-color: #001D9F;
+}
+
+.img-logo{
+    width: 100%;
+}
+
+@media screen and (min-width: 700px){
+    #sectionRecover article{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    #sectionRecover article{
+        width: 20%;
+    }
+}

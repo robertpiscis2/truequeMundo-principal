@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TruequeMundo</title>
+    <link
+      rel="icon"
+      href="http://truequemundo.xyz/frontend/images/icon_logo.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      href="http://truequemundo.xyz/frontend/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://truequemundo.xyz/frontend/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://truequemundo.xyz/frontend/css/my-styles/login.css"
+    />
+  </head>
+  <body>
+    <header class="d-flex flex-row justify-content-end" id="top-lang">
+      <a
+        class="btn btn-link font-color"
+        href="http://truequemundo.xyz/frontend/index.html"
+        role="button"
+        >ESP</a
+      >
+      <a class="btn text-white">|</a>
+      <a
+        class="btn btn-link font-color"
+        href="http://truequemundo.xyz/frontend/en/index.html"
+        role="button"
+        >ENG</a
+      >
+    </header>
+    <main
+      class="d-flex flex-column align-items-center justify-content-center"
+      id="principal"
+    >
+      <section
+        class="d-flex flex-column align-items-center justify-content-center"
+        id="sectionLogin"
+      >
+        <article class="d-flex justify-content-center">
+          <img
+            src="http://truequemundo.xyz/frontend/images/logo.png"
+            alt="logoTruequeMundo"
+            class="img-logo"
+          />
+        </article>
+        <article class="d-flex justify-content-center" id="formLogin">
+          <!--FORM to DIV-->
+          <div class="d-flex flex-column align-items-center" id="fLogin">
+            <div class="d-flex mb-2 m-input">
+              <input
+                type="email"
+                required
+                size="100"
+                placeholder="Correo electrónico"
+                id="frmEmailLogin"
+              />
+            </div>
+            <div class="d-flex mt-2 mb-2 m-input">
+              <input
+                type="password"
+                required
+                size="100"
+                placeholder="Contraseña"
+                id="frmPasswordLogin"
+              />
+            </div>
+            <div class="d-flex mt-2 mb-2">
+              <a
+                href="http://truequemundo.xyz/frontend/html/recoverPassword.html"
+                class="font-color"
+                >Olvidaste tu contraseña?</a
+              >
+            </div>
+            <div>
+              <!-- <input type="submit" id="btnSubmitLogin" name="btnSubmitLogin" value="Log In" class="btn btn-primary btn-bkg"> -->
+              <button class="btn btn-primary btn-bkg" id="btnSubmitLogin">
+                Ingresar
+              </button>
+            </div>
+            <div class="d-flex mt-2">
+              <p id="pAviso"></p>
+            </div>
+          </div>
+          <!--FORM to DIV-->
+        </article>
+      </section>
+    </main>
+
+    <script src="http://truequemundo.xyz/frontend/js/popper.min.js"></script>
+    <script src="http://truequemundo.xyz/frontend/js/jquery.min.js"></script>
+    <script src="http://truequemundo.xyz/frontend/js/bootstrap.min.js"></script>
+    <script src="http://truequemundo.xyz/frontend/js/my-scripts/script-login.js"></script>
+    <script src="http://truequemundo.xyz/frontend/js/my-scripts/script-login-fetch.js"></script>
+
+    <script type="text/javascript">
+      history.replaceState({}, null, "/Bienvenido");
+    </script>
+  </body>
+</html>
